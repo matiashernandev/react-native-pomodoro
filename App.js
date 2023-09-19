@@ -59,7 +59,7 @@ export default function App() {
         { backgroundColor: colors[currentTime] },
       ]}
     >
-      <Text style={styles.text}>Pomodoro App</Text>
+      <Text className="font-bold text-3xl text-center">Pomodoro App</Text>
       <Header
         currentTime={currentTime}
         setCurrentTime={setCurrentTime}
@@ -79,7 +79,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  text: { fontSize: 32, fontWeight: "bold" },
   button: {
     alignItems: "center",
     backgroundColor: "#333333",
